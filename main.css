@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Gotu", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+.background {
+  height: 100%;
+  width: 100%;
+  background-image: url(images/main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow-y: auto;
+  background-position: center;
+}
+
+#image {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+h1 {
+  color: white;
+  font-size: 3rem;
+  position: absolute;
+  left: 15%;
+  top: 10%;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.navbar {
+  width: 400px;
+  float: left;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+.navbar a {
+  text-decoration: none;
+  font-size: 2rem;
+  display: inline-block;
+  height: 80px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding-top: 4%;
+  margin: 5px 0;
+  transition: 300ms;
+  border-radius: 10px;
+}
+a.active,
+.navbar a:hover {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+.a {
+  width: 95%;
+}
+.b {
+  width: 85%;
+}
+.c {
+  width: 70%;
+}
+
+.imagepart {
+  float: right;
+  margin-right: 23%;
+  margin-top: 15%;
+}
+
+#insta {
+  height: 50px;
+  width: 50px;
+}
+#gmail {
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+}
+#link {
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+}
+#twitter {
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+}
+#github {
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+}
+footer {
+  display: flex;
+
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+}
