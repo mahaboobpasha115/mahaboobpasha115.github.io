@@ -6,7 +6,7 @@
 html,
 body {
   font-size: 16px;
-  font-family: "Gotu", sans-serif;
+  font-family: "Patrick Hand", cursive;
   height: 100%;
   width: 100%;
 }
@@ -20,65 +20,33 @@ body {
   position: relative;
   overflow-y: auto;
 }
-#git {
-  height: 150px;
-  width: 150px;
-  border-radius: 50px;
-}
-
-#github {
-  height: 150px;
-  width: 150px;
-  border-radius: 50px;
-}
-#htm {
-  height: 150px;
-  width: 150px;
-  border-radius: 50px;
-}
-#cs {
-  height: 150px;
-  width: 150px;
-  border-radius: 50px;
-}
-#jss {
-  height: 150px;
-  width: 150px;
-  border-radius: 50px;
-}
-#h {
-  text-align: start;
-  margin-left: 55px;
-}
 h2 {
-  color: cornflowerblue;
-  margin-bottom: 10px;
+  color: white;
 }
 .git {
   position: absolute;
-  top: 10%;
-  left: 20%;
+  top: 5%;
+  left: 8%;
 }
-
 .github {
   position: absolute;
-  top: 10%;
-  left: 40%;
+  top: 5%;
+  right: 8%;
 }
 .html {
   position: absolute;
-  top: 10%;
-  left: 60%;
+  top: 35%;
+  left: 8%;
 }
 .Css {
   position: absolute;
-  top: 60%;
-  left: 30%;
+  top: 35%;
+  right: 8%;
 }
 .js {
   position: absolute;
-  top: 60%;
-  left: 50%;
+  top: 65%;
+  left: 30%;
 }
 h2 {
   text-align: center;

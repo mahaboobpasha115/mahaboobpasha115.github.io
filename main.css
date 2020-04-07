@@ -7,7 +7,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  font-family: "Gotu", sans-serif;
+  font-family: "Patrick Hand", cursive;
   font-size: 16px;
   font-weight: normal;
 }
@@ -23,25 +23,23 @@ body {
 }
 
 #image {
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
+  margin-top: 10%;
+  margin-left: 25%;
 }
 h1 {
   color: white;
-  font-size: 3rem;
-  position: absolute;
-  left: 15%;
-  top: 10%;
+  font-size: 2.5rem;
   text-align: center;
-  letter-spacing: 5px;
+  margin-top: 5%;
 }
 
 .navbar {
-  width: 400px;
-  float: left;
-  margin-top: 15%;
-  margin-left: 10%;
+  width: 300px;
+  margin-top: 10%;
+  margin-left: 13%;
 }
 .navbar a {
   text-decoration: none;
@@ -72,34 +70,28 @@ a.active,
   width: 70%;
 }
 
-.imagepart {
-  float: right;
-  margin-right: 23%;
-  margin-top: 15%;
-}
-
 #insta {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
 }
 #gmail {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   margin-left: 20px;
 }
 #link {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   margin-left: 20px;
 }
 #twitter {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   margin-left: 20px;
 }
 #github {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   margin-left: 20px;
 }
 footer {
@@ -107,5 +99,7 @@ footer {
 
   position: absolute;
   bottom: 0;
-  left: 35%;
+
+  top: 100%;
+  left: 20%;
 }
