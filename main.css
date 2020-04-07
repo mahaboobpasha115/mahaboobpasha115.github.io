@@ -94,12 +94,7 @@ a.active,
   width: 30px;
   margin-left: 20px;
 }
-footer {
-  display: flex;
-
-  position: absolute;
-  bottom: 0;
-
-  top: 100%;
-  left: 20%;
+.footer {
+  margin-top: 10%;
+  margin-left: 17%;
 }
