@@ -7,7 +7,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Gotu", sans-serif;
   font-size: 16px;
   font-weight: normal;
 }
@@ -97,4 +97,77 @@ a.active,
 .footer {
   margin-top: 10%;
   margin-left: 17%;
+}
+@media (min-width: 700px) {
+  #image {
+    float: right;
+    margin-right: 70px;
+  }
+  .navbar {
+    position: absolute;
+    top: 15%;
+  }
+  .footer {
+    margin-top: 50%;
+    margin-left: 35%;
+  }
+}
+@media (min-width: 920px) {
+  .navbar {
+    width: 400px;
+  }
+  #image {
+    height: 250px;
+    width: 250px;
+  }
+  #insta {
+    height: 50px;
+    width: 50px;
+  }
+  #gmail {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+  }
+  #link {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+  }
+  #twitter {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+  }
+  #github {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 3%;
+  }
+}
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 3rem;
+    word-spacing: 10px;
+  }
+  .navbar {
+    width: 500px;
+  }
+  #image {
+    height: 300px;
+    width: 300px;
+
+    position: absolute;
+    top: 12%;
+    left: 35%;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 4%;
+  }
 }

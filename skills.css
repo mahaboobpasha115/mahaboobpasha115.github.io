@@ -6,7 +6,7 @@
 html,
 body {
   font-size: 16px;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Gotu", sans-serif;
   height: 100%;
   width: 100%;
 }
@@ -51,3 +51,133 @@ h2 {
 h2 {
   text-align: center;
 }
+
+@media (min-width: 500px) {
+  .git {
+    position: absolute;
+    top: 5%;
+    left: 8%;
+  }
+  .github {
+    position: absolute;
+    top: 5%;
+    right: 8%;
+  }
+  .html {
+    position: absolute;
+    top: 45%;
+    left: 8%;
+  }
+  .Css {
+    position: absolute;
+    top: 45%;
+    right: 8%;
+  }
+  .js {
+    position: absolute;
+    top: 85%;
+    left: 35%;
+  }
+}
+@media (min-width: 700px) {
+  .git {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+  }
+  .github {
+    position: absolute;
+    top: 5%;
+    right: 20%;
+  }
+  .html {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+  }
+  .Css {
+    position: absolute;
+    top: 45%;
+    right: 20%;
+  }
+  .js {
+    position: absolute;
+    top: 85%;
+    left: 40%;
+  }
+}
+@media (min-width: 1000px) {
+  img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50px;
+  }
+  .git {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+  .github {
+    position: absolute;
+    top: 5%;
+    left: 35%;
+  }
+  .github h2 {
+    margin-right: 40%;
+  }
+  .html {
+    position: absolute;
+    top: 5%;
+    left: 65%;
+  }
+  .Css {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+  }
+  .Css h2 {
+    margin-right: 55%;
+  }
+  .js {
+    position: absolute;
+    top: 60%;
+    left: 55%;
+  }
+}
+@media (min-width: 1350px) {
+  img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50px;
+  }
+  .git {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+  .github {
+    position: absolute;
+    top: 5%;
+    left: 35%;
+  }
+  .github h2 {
+    margin-right: 60%;
+  }
+  .html {
+    position: absolute;
+    top: 5%;
+    left: 65%;
+  }
+  .Css {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+  }
+  .Css h2 {
+    margin-right: 70%;
+  }
+  .js {
+    position: absolute;
+    top: 60%;
+    left: 55%;
+  }
