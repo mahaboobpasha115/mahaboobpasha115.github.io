@@ -65,17 +65,17 @@ h2 {
   }
   .html {
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 8%;
   }
   .Css {
     position: absolute;
-    top: 45%;
+    top: 50%;
     right: 8%;
   }
   .js {
     position: absolute;
-    top: 85%;
+    top: 90%;
     left: 35%;
   }
 }
