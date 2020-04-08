@@ -35,17 +35,17 @@ h2 {
 }
 .html {
   position: absolute;
-  top: 35%;
+  top: 38%;
   left: 6%;
 }
 .Css {
   position: absolute;
-  top: 35%;
+  top: 38%;
   right: 6%;
 }
 .js {
   position: absolute;
-  top: 65%;
+  top: 70%;
   left: 30%;
 }
 h2 {
@@ -181,3 +181,4 @@ h2 {
     top: 60%;
     left: 55%;
   }
+}
